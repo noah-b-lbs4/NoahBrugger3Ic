@@ -13,4 +13,9 @@ class ManuellBetriebenesWasserfahrzeug extends Wasserfahrzeug {
     public void beschleunigen() {
         System.out.println(name + " wird durch Muskelkraft angetrieben");
     }
+
+    @Override
+    public void zusatzgewicht() {
+        System.out.println(name + " wird durch Muskelkraft angetrieben");
+    }
 }

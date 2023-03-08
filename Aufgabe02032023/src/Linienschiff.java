@@ -4,8 +4,8 @@
 class Linienschiff extends MotorisiertesWasserfahrzeug {
     int anzahlPassagiere;
 
-    public Linienschiff(String name, int maxGeschwindigkeit, int leistung, int anzahlPassagiere) {
-        super(name, maxGeschwindigkeit, leistung);
+    public Linienschiff(String name, int maxGeschwindigkeit, int leistung, int anzahlPassagiere ,int maxCargo) {
+        super(name, maxGeschwindigkeit, leistung, maxCargo);
         this.anzahlPassagiere = anzahlPassagiere;
     }
 
