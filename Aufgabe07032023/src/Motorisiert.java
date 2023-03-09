@@ -1,0 +1,4 @@
+
+interface Motorisiert {
+    void motorAn();
+}

@@ -1,0 +1,4 @@
+interface NichtMotorisiert {
+    void ruderEinholen();
+}
+
